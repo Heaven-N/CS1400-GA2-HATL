@@ -20,7 +20,7 @@ public class AppClient{
             int lowPower;
             Appliance aAppl;
 
-            /*Complete the method*/
+            /* TODO Complete the method*/
             scan.close();
         }catch(IOException ioe){
             System.out.println("The file can not be read");
@@ -43,6 +43,7 @@ public class AppClient{
             System.out.println("Type \"S\" To Start the simulation");
             System.out.println("Type \"Q\" Quit the program");
             option1=scan.nextLine();
+            // TODO create methods for each menu option
             /* Complete the skeleton code below */
 
 
