@@ -27,6 +27,30 @@ public class AppClient{
         }
     }
 
+    public void addApp(String option){
+
+    }
+
+    public void deleteApp(String option){
+
+    }
+
+    public void listApps(String option){
+
+    }
+
+    public void findApp(String option){
+
+    }
+
+    public void simulate(String option){
+
+    }
+
+    public void quit(String option){
+        
+    }
+
 
     public static void main(String []args){
 
@@ -45,6 +69,10 @@ public class AppClient{
             option1=scan.nextLine();
             // TODO create methods for each menu option
             /* Complete the skeleton code below */
+
+            if(option1.equals("A")){
+            
+            }
 
 
         }

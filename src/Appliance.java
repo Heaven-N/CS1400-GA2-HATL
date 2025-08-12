@@ -1,3 +1,5 @@
+import java.util.Random;
+
 public class Appliance {
     private String name;
     private double wattage;
@@ -45,4 +47,14 @@ public class Appliance {
     }
 
     // TODO randomiseIsOn(), getWattageUse(), toString()
+
+    public boolean randomiseIsOn(){
+        Random random = new Random();
+        onStatus = random.nextDouble() , probOn;
+        return onStatus;
+    }
+
+    public double getWattageUse(){
+        return onStatus ? wattage : 0.0;
+    }
 }

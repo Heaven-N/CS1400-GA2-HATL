@@ -25,4 +25,7 @@ public class SmartAppliance extends Appliance{
     }
 
     // TODO getWattageUse(), toString()
+    public double getWattageUse(){
+        return lowStatus ? wattage : (1 - reductionPercent) * wattage;
+    }
 }

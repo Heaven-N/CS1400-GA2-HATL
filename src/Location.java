@@ -21,5 +21,13 @@ public class Location {
     }
 
     // TODO getWattageUse(), toString(), brownOut(boolean)
+
+    public int getWattageUse(){
+        
+    }
+
+    public void brownOut(boolean ){
+
+    }
     //  other functionality for interacting with applainces ArrayList
 }
